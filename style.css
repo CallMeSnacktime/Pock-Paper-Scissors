@@ -1,0 +1,73 @@
+body{
+    min-width: 650px;
+}
+
+button{
+    color:white;
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+img{
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+#outcome{
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px
+}
+
+.board{
+    display: flex;
+    margin: 30px auto 20px auto;
+    padding: 20px 5px;
+    border: solid black 2px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgba(158, 158, 158);
+    justify-self: center;
+    max-width: 900px;
+}
+
+.container{
+    border: solid black 3px;
+    border-radius: 10px;
+    background-color: rgba(158, 158, 158, .5);
+    padding: 2px
+}
+
+.reset{
+    margin: auto 10px;
+}
+
+.score{
+    display: flex;
+    width: 90%;
+    margin: 10px 5%;
+    justify-content: space-around;
+    border: solid black 3px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   text-decoration: underline;
+}
+
+.play{
+    color: blue;
+}
+
+.comp{
+    color: red;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Rock | Paper | Scissors</h1>
+            <div class="board">
+                <img class="rock" onClick="startGame(0)" src="img/rock.png">
+                <img class="paper" onClick="startGame(1)" src="img/paper.png">
+                <img class="scissors" onClick="startGame(2)" src="img/scissors.png">
+            </div>
+            <h1 id="outcome">Select A Move!!!</h1>
+            
+            <div class="score">
+                <div class="play">
+                    <h1>Player Score</h1>
+                    <p id="pick">Your Choice</p>
+                    <p id="play">0</p>
+                </div>
+                <div class="reset">
+                    <button onClick="reset()">RESET</button>
+                </div>
+                <div class="comp">
+                    <h1>Computer Score</h1>
+                    <p id="choice">Opponent's Choice</p>
+                    <p id="opp">0</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="index.js"></script>  
+    </body>
+
+
+
+</html>
