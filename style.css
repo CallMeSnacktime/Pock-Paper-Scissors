@@ -25,6 +25,13 @@ img{
     width: 300px
 }
 
+#winner{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px
+}
+
 .board{
     display: flex;
     margin: 30px auto 20px auto;
